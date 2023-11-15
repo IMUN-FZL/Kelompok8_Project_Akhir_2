@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage.clothing.ClothingActivity"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_margin="5dp"
+       app:cardCornerRadius="15dp"
+       app:cardElevation="10dp">
+
+       <RelativeLayout
+           android:id="@+id/containerClothingMen"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="@drawable/men_model"
+               android:scaleType="centerCrop"
+               android:layout_centerInParent="true"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_alignParentStart="true"
+               android:layout_centerVertical="true"
+               android:layout_marginStart="20dp">
+
+               <TextView
+                   android:id="@+id/menWord1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/men_s"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+               <TextView
+                   android:id="@+id/menWord2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/clothing"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+               <TextView
+                   android:id="@+id/menWord3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/and"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+               <TextView
+                   android:id="@+id/menWord4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/apparels"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+           </LinearLayout>
+       </RelativeLayout>
+
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_margin="5dp"
+       app:cardCornerRadius="15dp"
+       app:cardElevation="10dp">
+
+       <RelativeLayout
+           android:id="@+id/containerClothingWomen"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="@drawable/woman_model"
+               android:scaleType="centerCrop"
+               android:layout_centerInParent="true"/>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_alignParentEnd="true"
+               android:layout_centerVertical="true"
+               android:layout_marginEnd="20dp"
+               android:gravity="end">
+
+               <TextView
+                   android:id="@+id/womenWord1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/women_s"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+               <TextView
+                   android:id="@+id/womenWord2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/clothing"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+               <TextView
+                   android:id="@+id/womenWord3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/and"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+               <TextView
+                   android:id="@+id/womenWord4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/apparels"
+                   style="@style/Typography.Heading.White.Bold"/>
+
+           </LinearLayout>
+       </RelativeLayout>
+
+   </androidx.cardview.widget.CardView>
+
+</LinearLayout>

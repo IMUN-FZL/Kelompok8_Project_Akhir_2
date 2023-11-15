@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="254dp"
+       app:cardCornerRadius="15dp"
+       android:layout_margin="10dp">
+       <ImageView
+           android:id="@+id/img_addstaff"
+           android:layout_width="match_parent"
+           android:layout_height="310dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/image_staff" />
+
+   </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/add_staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add_staf"
+        android:fontFamily="@font/poppins"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/img_addstok"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/temporary_storage" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/add_stok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/add_stok"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="10dp"/>
+</LinearLayout>

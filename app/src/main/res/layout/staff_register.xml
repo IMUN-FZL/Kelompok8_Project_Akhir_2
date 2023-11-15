@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Staff"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:boxBackgroundMode="outline"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/nameStaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:boxBackgroundMode="outline"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/noHpstaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Number Phone"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:boxBackgroundMode="outline"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/emailStaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter E-mail Address"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:boxBackgroundMode="outline"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/alamatStaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Address"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundMode="outline"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/passwordStaff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btn_registerstaffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/design_default_color_primary"
+            android:textColor="@color/white"
+            android:text="Register staff"/>
+
+    </LinearLayout>
+
+</ScrollView>

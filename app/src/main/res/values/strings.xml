@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Final Project 2</string>
+    <string name="username">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="footer">We Wish You Happy Working Today</string>
+    <string name="add_staf">ADD STAFF</string>
+    <string name="add_stok">ADD STOK</string>
+    <string name="confirm">CONFIRM PASSWORD</string>
+    <string name="Item_id">Item ID</string>
+    <string name="quantity_id">Quantity to Add</string>
+    <string name="electronic">Electronic</string>
+    <string name="appbarTittle">Inventory</string>
+    <string name="tentang_kami">About us</string>
+    <string name="Logout">Logout</string>
+    <string name="men_s">MEN\'S</string>
+    <string name="clothing">CLOTHING</string>
+    <string name="and">AND</string>
+    <string name="apparels">APPARELS</string>
+    <string name="women_s">WOMEN\'S</string>
+    <string name="tshirt">Tshirt</string>
+    <string name="formal">Formal</string>
+    <string name="bottom_wear">Bottom Wear</string>
+    <string name="shoes">Shoes</string>
+    <string name="nama_product">Nama Product</string>
+    <string name="quantity">0000</string>
+    <string name="computer">COMPUTER</string>
+    <string name="smartphone">SMARTPHONE</string>
+    <string name="stock">Stock : </string>
+    <string name="about_us">About us</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="email">EMAIL</string>
+    <string name="select">Select Item</string>
+    
+    <string-array name="choice">
+        <item>select item</item>
+        <item>books</item>
+        <item>clothing men tshirt</item>
+        <item>clothing men bottomear</item>
+        <item>clothing men formal</item>
+        <item>clothing men shoes</item>
+        <item>clothing women tshirt</item>
+        <item>clothing women bottomwear</item>
+        <item>clothing women formal</item>
+        <item>clothing women shoes</item>
+        <item>electronics computer</item>
+        <item>electronics smartphone</item>
+        <item>other</item>
+    </string-array>
+</resources>
